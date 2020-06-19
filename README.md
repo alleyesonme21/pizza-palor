@@ -1,42 +1,44 @@
-# Mr. Roboger's Neighborhood webpage  
- 06/12/2020, By Johnny Duverseau
+# Pizza Palor Website  
+ 06/19/2020, By Johnny Duverseau
 # Description
-This application takes a number from a user and returns a range of numbers from 0 to the user inputted number based on 3 criteria: (1) Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
- (2) Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
- (3) Numbers that contain a 3: all digits are replaced (all digits) with "Won't you be my neighbor?".
-
+This website allows a user to order pizza and choose toppings and pizza size and calculates the final price of the user's pizza order.   
 ## Setup/installation requirement
 - Open terminal
 - Create project page in terminal
-- Cd beep_boop
+- Cd pizza-palor
 - Open in VSCode 
 - index.html in browser chrome to view the page 
 ## Technologies Used
 - HTML
 - CSS
 - Bootstrap
-- Javascript 
+- jquery
+- Javascript
+- Object constructor
+- Properties 
+- prototype Method
 - Git
 - VSCode
-
 ## Specifications
-
-_The program will return the price of a pizza with 1 topping, small size _
-* Example Input: cheese,small size
+_The program will return the price of a pizza with 1 topping, small size_
+* Example Input: cheese and large size
 * Example Output: $10
 
-_The program will return the price of a pizza with 3 toppings, medium size _
-* Example Input: cheese, artichoke,anchovy
-* Example Output: $15
+_The program will return the price of a pizza with 2 toppings, small size_
+* Example Input: Cheese-Pepperoni and small size.
+* Example Output: $12
 
-_The program will return the price of a pizza with 4 toppings, large size _
-* Example Input: large, cheese, pepperoni ect 
-* Example Output: $20
+_The program will return the price of a pizza with 3 toppings, medium size_
+* Example Input: Cheese-Pepperoni-Artichoke and medium size.
+* Example Output: $17
 
+_The program will return the price of a pizza with 4 toppings + and large size_
+* Example Input: Cheese-Pepperoni-Artichoke-Anchovy and large size.
+* Example Output: $25
 
 ## Support and contact details
 Contact info: Email: duverseaujohnny21@gmail.com
 
 ## License
-This project is licensed under the MIT License 
+This project is licensed under the MIT License
 Copyright (c)  2020 by Johnny Duverseau
