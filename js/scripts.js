@@ -26,7 +26,8 @@ $(document).ready(function() {
     let newPizza = new Pizza(inputtedTopping, inputtedSize);
     $("#pizza-cost").text(newPizza.pizzaCost());
     $("#output").show()
-   
+    $("#formOne").hide()
+    $("#pizza-cost").show()
   })
 })
 
