@@ -18,13 +18,12 @@ body {
 }
 #output p {
   font-size: 30px;
-  color: rgb(134, 59, 59);
+  color: rgba(212, 63, 22, 0.89);
 }
   form,.btn-primary {
   font-size: 20px; 
 }
-
 #topping,#size, option{
   color: gray;
-   font-size: large;
+  font-size: large;
 }
