@@ -16,11 +16,11 @@ Pizza.prototype.pizzaCost = function() {
   }
     return this.cost;
   }
+  
 // User Interface Logic
 $(document).ready(function() {
   $("form#formOne").submit(function(event) {
     event.preventDefault();
-    // let newPizza = new pizza();
     const inputtedTopping = parseInt($("#topping").val());
     const inputtedSize = parseInt($("#size").val());
     let newPizza = new Pizza(inputtedTopping, inputtedSize);
