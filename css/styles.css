@@ -1,4 +1,29 @@
 #output {
   display: none;
   text-align: center;
+  margin-top: 20px;
+}
+body {
+  background-image: url(./../img/Pizza-Hut.jpg);
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-size: cover;
+}
+#formOne h1{
+  color: brown;
+  text-align: center;
+}
+.form-group label {
+  color: rgba(199, 155, 24, 0.924);
+}
+#output p {
+  font-size: 30px;
+  color: rgb(134, 59, 59);
+}
+  form,.btn-primary {
+  font-size: 20px; 
+}
+#topping,#size, option{
+  color: gray;
+  font-size: large;
 }

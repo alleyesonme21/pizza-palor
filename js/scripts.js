@@ -4,8 +4,9 @@ function Pizza(topping, size) {
   this.size = size;
   this.cost = 15; 
 } 
+Pizza.prototype.pizzaCost = function() {
 
-
+  }
 // User Interface Logic
 $(document).ready(function() {
   $("form#formOne").submit(function(event) {
