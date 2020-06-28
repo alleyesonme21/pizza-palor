@@ -13,3 +13,18 @@ body {
   color: brown;
   text-align: center;
 }
+.form-group label {
+  color: rgba(199, 155, 24, 0.924);
+}
+#output p {
+  font-size: 30px;
+  color: rgb(134, 59, 59);
+}
+  form,.btn-primary {
+  font-size: 20px; 
+}
+
+#topping,#size, option{
+  color: gray;
+   font-size: large;
+}
